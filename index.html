@@ -1,179 +1,281 @@
 <!DOCTYPE html>
 <!-- Based on HTML5 Bones | http://html5bones.com -->
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Supplementary Data for VMToolsRA</title>
- <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<title>Supplementary Data for Experimeno</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<style>
-	.baner{
-			background-color: rgba(18,165,184,1.0000000000);
+		.baner {
+			background-color: rgb(71, 184, 18);
 			background-image: url(img/simple-header-blended-small.png);
-			color: white; 
-			     box-sizing: border-box;   
-	
+			color: white;
+			box-sizing: border-box;
 		}
-		body {font-family: Roboto, 'Open Sans', sans-serif;  margin:0; font-size:16px;}
-		h2{ text-align:center;}
-		h3   {color:black;}
-		h4   {color:#003366;margin-bottom:-12px; font-size:14px;}
-		p    {text-align:justify; font-size:13px;}
-		a:link    {color:blue; background-color:transparent; text-decoration:none}
-		a:visited {color:blue; background-color:transparent; text-decoration:none}
-		a:hover   {color:#003399; background-color:transparent; text-decoration:underline}
-		a:active  {color:#003399; background-color:transparent; text-decoration:underline}
-		header{text-align:center; }
-		footer{ background:#12a5b8;padding:20px; text-align:center}
-		main{width:90%; margin: auto; }
-		.suplement{color:gray; text-decoration:italic;}
-		.abs {font-size:15px; text-align:justify;}
-		li{font-size:12px;}
-		
+
+		body {
+			font-family: Roboto, 'Open Sans', sans-serif;
+			margin: 0;
+			font-size: 16px;
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+		h3 {
+			color: black;
+		}
+
+		h4 {
+			color: #003366;
+			margin-bottom: -12px;
+			font-size: 14px;
+		}
+
+		p {
+			text-align: justify;
+			font-size: 13px;
+		}
+
+		a:link {
+			color: blue;
+			background-color: transparent;
+			text-decoration: none
+		}
+
+		a:visited {
+			color: blue;
+			background-color: transparent;
+			text-decoration: none
+		}
+
+		a:hover {
+			color: #003399;
+			background-color: transparent;
+			text-decoration: underline
+		}
+
+		a:active {
+			color: #003399;
+			background-color: transparent;
+			text-decoration: underline
+		}
+
+		header {
+			text-align: center;
+		}
+
+		footer {
+			background: #12a5b8;
+			padding: 20px;
+			text-align: center
+		}
+
+		main {
+			width: 90%;
+			margin: auto;
+		}
+
+		.suplement {
+			color: gray;
+			text-decoration: italic;
+		}
+
+		.abs {
+			font-size: 15px;
+			text-align: justify;
+		}
+
+		li {
+			font-size: 12px;
+		}
+		.email {
+			color: white !important;
+		}
 	</style>
 </head>
 
 <body>
 
-<div class="baner">
-<div style="text-align:left; font-size:14px; color:#ffffff;">
-	<i>Supplementary Material for the Journal Manuscript Submission (ID JSS-D-17-00677)</i>
-	
-	</div>
-<header role="banner" >
-	<br><br>
-		<p style="font-size:30px; text-align:center">VMTools-RA: A Reference Architecture for Software Variability Tools</p>
-			Ana Paula Allian�, Edson OliveiraJr�, Bruno Sena�, Elisa Yumi Nakagawa� <br>
-			State University of Maring� (UEM)�;  University of S�o Paulo (USP)� <br>
-			ana.allian[at]usp[dot]br; edson[at]din[dot]uem[dot]br; brunosena[at]usp[dot]br; elisa[at]icmc[dot]usp[dot]br
-		<br>
-	<br><br><br><br>
-</header>
-</div>	
-
-<main role="main" >
-<div style="padding:20px;">
-
-	<div class="abs" >
-		<b>Paper Abstract.</b>&nbsp;
-
-		CONTEXT: Most software systems need to support an intensive amount of variability, 
-		i.e., distinct locations in the software where behavior can be configured. This trend requires support of tools. 
-		MOTIVATION: Nowadays, several tools have been developed to deal with this variability in software systems. However, no single solution 
-		offers all desired functionalities required by industrial practitioners. Consequently, they have to create their own tools and combine different 
-		means to manage such variations without following established patterns and knowledge about variability management processes. 
-		OBJECTIVE: The major goal of this study is to present the specification of VMTools-RA reference architecture. It encompasses knowledge 
-		and practice for building, evolving, and providing interoperability among these tools. 
-		METHOD: For creating VMTools-RA, we adopted the ProSA-RA process, which encourages the systematic design and evaluation of reference 
-		architectures. We evaluate VMTools-RA in twofold with a: i) qualitative empirical study based on Grounded Theory procedures applied to experts 
-		in reference architecture and software variability; and ii) controlled experiment.
-		RESULTS: Results from the qualitative  study  allowed us to improve our reference architecture. Results from the experiment provided 
-		preliminary evidence  VMTools-RA is an effective and efficient reference architecture for designing tools to deal with software variability. 
-		In addition, we provided an illustrative example of instantiation for using VMTools-RA. 
-		CONCLUSION: We conclude VMTools-RA provides evidence that it is a feasible reference architecture for developing and improving software 
-		variability tools. We believe VMTools-RA could benefite the adapting, developing, and/or interoperating variability tools in industrial settings.
-		<br> <br>
-		<b>Acknowledgments:</b> We would like to thank all participants from State University of Maringa (UEM) 
-		and from University of Sao Paulo (USP) (Laboratory of Software Engineering) for taking part in our experiment. 
-		We also would like to thank Amazon.CA and Federal University of Bahia. This work is supported by Brazilian funding 
-		agencies FAPESP (Grant: 2016/15634-3 and 2017/06195-9) and CAPES.
+	<div class="baner">
+		<div style="text-align:left; font-size:14px; color:#ffffff;">
+			<i>Supplementary Material for Experimento Controlado</i>
+		</div>
+		<header role="banner">
+			<br>
+			<br>
+			<p style="font-size:30px; text-align:center">
+				Comparando Abordagens de Avaliação de Experimentos de Engenharia de Software no Contexto de Linha de Produto de Software: um Experimento Controlado
+			</p>
+			Henrique Vignando, Victor José A. T. de M. França, Viviane da Rocha Furtado
+			<br> State University of Maringá (UEM)
+			<br> 
+				<a class="email" href="mailto:rickuev@gmail.com" target="_top">rickuev@gmail.com</a>
+				<a class="email" href="mailto:rickuev@gmail.com" target="_top">rickuev@gmail.com</a>
+				<a class="email" href="mailto:rickuev@gmail.com" target="_top">rickuev@gmail.com</a>
+			<br>
+			<br>
+		</header>
 	</div>
 
-	<br> <br>
-	<div style="border-top-style: outset;">
-</div>
+	<main role="main">
+		<div style="padding:20px;">
 
-<div style="background:#12a5b8;padding:20px;" >
-<h3>VMTools-RA Empirical Evaluation Instrumentation</h3>
+			<div class="abs">
+				<b>Paper Abstract.</b> Experimentação na área de Engenharia de Software é essencial para avaliar e aprimorar o software e o seu processo de 
+				desenvolvimento, além de reduzir os esforços de manutenção. Assim, é crucial que haja avaliação da qualidade destes experimentos visando aumentar 
+				a confiabilidade de seus resultados. No que diz respeito à Linha de Produto de Software, observa-se que não há um esforço para avaliação dos 
+				experimentos nesse contexto específico, o que resultaria em benefícios tanto para a industria quanto para a academia. Assim, o objetivo deste 
+				trabalho é comparar abordagens de avaliação de qualidade de experimentos de Engenharia de Software no contexto de Linha de Produto de Software à 
+				partir de um experimento controlado. Como resultados, temos a análise das abordagens selecionadas quanto à sua eficiência na avaliação de experimentos.
+				<br>
+				<br>
+				<b>Acknowledgments:</b> Os autores agradecem à Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) pelo apoio financeiro, na realização 
+				dessa pesquisa.
+			</div>
 
-<p style="font-size:14px">We create an experiment instrumentation package including FERA checklist, 
-questionnaire, VMTools-RA views, the consent term, a characterization questionnaire, 
-a training course slide show and two different documents, one for the group that uses 
-VMTools-RA and the other for those that use ArcDoc. Click on the links bellow to access the documents.
- </p>
+			<br>
+			<br>
+			<div style="border-top-style: outset;">
+			</div>
 
-</div>
+			<div style="background:#12a5b8;padding:20px;">
+				<h3>Comparando Abordagens de Avaliação de Experimentos de Engenharia de Software no Contexto de Linha de Produto de Software: um Experimento Controlado</h3>
 
-<h3>Instrumentation Pack for our Qualitative Evaluation</h3>
-<h4>Checklist FERA (Framework for Evaluation of Reference Architecture)</h4>
-<ul>	
-	<li><a href="docs/feraChecklist.pdf" target="_blank">Download Fera checklist</a></li>
-</ul>
+				<p style="font-size:14px">We create an experiment instrumentation package including FERA checklist, questionnaire, VMTools-RA views, the consent
+					term, a characterization questionnaire, a training course slide show and two different documents, one for the group
+					that uses VMTools-RA and the other for those that use ArcDoc. Click on the links bellow to access the documents.
+				</p>
 
-<h4>Experts characterization questionnaires</h4>
-<ul>
-	<li><a href="docs/RAParticipant.pdf" target="_blank">Download questionnaire for reference architecture experts</a></li>
-	<li><a href="docs/VMParticipant.pdf" target="_blank">Download questionnaire for variability management experts</a></li>
-</ul>
+			</div>
 
-<h4>Documentation of the first VMTools-RA version (v1.0)</h4>
-<ul>
-	<li><a href="docs/vmtoolsraVersion1.pdf" target="_blank">Download first VMTools-RA version</a></li>
-</ul>	
-	
-<h4>Answers from experts and related codes</h4>
-<ul>
-	<li><a href="docs/answersCodes.pdf" target="_blank">Download answers from experts</a></li>
-</ul>	
-	
-		
-<h4>Complete views of VMTools-RA</h4>
-<ul>
-	<li><a href="views/VMToolsRAOverview.pdf" target="_blank">VMTools-RA overview</a></li>
-	<li><a href="views/VMToolsRAConceptView.pdf" target="_blank">VMTools-RA conceptual view</a></li>
-	<li><a href="views/VMToolsRAVariabilityView.pdf" target="_blank">VMTools-RA variability view</a></li>
-	<li><a href="views/VMToolsRADecisionView.pdf" target="_blank">VMTools-RA decision view</a></li>
-	<li><a href="views/VMToolsRAModuleView.pdf" target="_blank">VMTools-RA module view</a></li>
-	<li><a href="views/VMToolsRAProcessview.pdf" target="_blank">VMTools-RA process view</a></li>
-	<li><a href="views/VMToolsRADeployView.pdf" target="_blank">VMTools-RA deployment view</a></li>
-</ul>	
+			<h3>Instrumentation Pack for our Qualitative Evaluation</h3>
+			<h4>Checklist FERA (Framework for Evaluation of Reference Architecture)</h4>
+			<ul>
+				<li>
+					<a href="docs/feraChecklist.pdf" target="_blank">Download Fera checklist</a>
+				</li>
+			</ul>
 
-<h3>Instrumentation Pack for our Controlled Experiment</h3>
-<h4>Consent term</h4>
-<ul>	
-	<li> <a href="docs/consentTermEN.pdf" target="_blank">Download Consent Term in English</a></li>
-	<li> <a href="docs/consentTermPT.pdf" target="_blank">Download Consent Term in Portuguese</a></li>
-</ul>
+			<h4>Experts characterization questionnaires</h4>
+			<ul>
+				<li>
+					<a href="docs/RAParticipant.pdf" target="_blank">Download questionnaire for reference architecture experts</a>
+				</li>
+				<li>
+					<a href="docs/VMParticipant.pdf" target="_blank">Download questionnaire for variability management experts</a>
+				</li>
+			</ul>
 
-<h4>Characterization questionanaire</h4>
-<ul>
-	<li><a href="docs/cQuestionnaireEN.pdf" target="_blank">Download questionnaire in English</a></li>
-	<li><a href="docs/cQuestionnairePT.pdf" target="_blank">Download questionnaire in Portuguese</a></li>
-</ul>
+			<h4>Documentation of the first VMTools-RA version (v1.0)</h4>
+			<ul>
+				<li>
+					<a href="docs/vmtoolsraVersion1.pdf" target="_blank">Download first VMTools-RA version</a>
+				</li>
+			</ul>
 
-<h4>Training course slide show</h4>
-<ul>
-	<li><a href="docs/trainingEN.pdf" target="_blank">Download training course in English</a></li>
-	<li><a href="docs/trainingPT.pdf" target="_blank">Download training course in Portuguese</a></li>
-</ul>
+			<h4>Answers from experts and related codes</h4>
+			<ul>
+				<li>
+					<a href="docs/answersCodes.pdf" target="_blank">Download answers from experts</a>
+				</li>
+			</ul>
 
-<h4>Document for the group using VMTools-RA</h4>
-<ul>
-	<li><a href="docs/vmtoolsRAEN.pdf" target="_blank">Download document in English</a></li>
-	<li><a href="docs/vmtoolsRAPT.pdf" target="_blank">Download document in Portuguese</a></li>
-</ul>
+			<h4>Complete views of VMTools-RA</h4>
+			<ul>
+				<li>
+					<a href="views/VMToolsRAOverview.pdf" target="_blank">VMTools-RA overview</a>
+				</li>
+				<li>
+					<a href="views/VMToolsRAConceptView.pdf" target="_blank">VMTools-RA conceptual view</a>
+				</li>
+				<li>
+					<a href="views/VMToolsRAVariabilityView.pdf" target="_blank">VMTools-RA variability view</a>
+				</li>
+				<li>
+					<a href="views/VMToolsRADecisionView.pdf" target="_blank">VMTools-RA decision view</a>
+				</li>
+				<li>
+					<a href="views/VMToolsRAModuleView.pdf" target="_blank">VMTools-RA module view</a>
+				</li>
+				<li>
+					<a href="views/VMToolsRAProcessview.pdf" target="_blank">VMTools-RA process view</a>
+				</li>
+				<li>
+					<a href="views/VMToolsRADeployView.pdf" target="_blank">VMTools-RA deployment view</a>
+				</li>
+			</ul>
 
-<h4>Document for the group using ArcDoc</h4>
-<ul>
-	<li><a href="docs/arcdocEN.pdf" target="_blank">Download document in English</a></li>
-	<li><a href="docs/arcdocPT.pdf" target="_blank">Download document in Portuguese</a></li>
-</ul>
+			<h3>Instrumentation Pack for our Controlled Experiment</h3>
+			<h4>Consent term</h4>
+			<ul>
+				<li>
+					<a href="docs/consentTermEN.pdf" target="_blank">Download Consent Term in English</a>
+				</li>
+				<li>
+					<a href="docs/consentTermPT.pdf" target="_blank">Download Consent Term in Portuguese</a>
+				</li>
+			</ul>
 
+			<h4>Characterization questionanaire</h4>
+			<ul>
+				<li>
+					<a href="docs/cQuestionnaireEN.pdf" target="_blank">Download questionnaire in English</a>
+				</li>
+				<li>
+					<a href="docs/cQuestionnairePT.pdf" target="_blank">Download questionnaire in Portuguese</a>
+				</li>
+			</ul>
 
-<h4>Our preceding study about reference architecture in the context of software variability tools</h4>
-<ul>
-	<li><a href="http://dl.acm.org/citation.cfm?id=2755568" target="_blank">Download paper</a></li>
-</ul>	
+			<h4>Training course slide show</h4>
+			<ul>
+				<li>
+					<a href="docs/trainingEN.pdf" target="_blank">Download training course in English</a>
+				</li>
+				<li>
+					<a href="docs/trainingPT.pdf" target="_blank">Download training course in Portuguese</a>
+				</li>
+			</ul>
 
+			<h4>Document for the group using VMTools-RA</h4>
+			<ul>
+				<li>
+					<a href="docs/vmtoolsRAEN.pdf" target="_blank">Download document in English</a>
+				</li>
+				<li>
+					<a href="docs/vmtoolsRAPT.pdf" target="_blank">Download document in Portuguese</a>
+				</li>
+			</ul>
 
- </div>
-</main>
- 
- 
-<footer role="contentinfo" >
-	<small>Copyright &copy; <time datetime="2013">2017</time></small>
-</footer>
+			<h4>Document for the group using ArcDoc</h4>
+			<ul>
+				<li>
+					<a href="docs/arcdocEN.pdf" target="_blank">Download document in English</a>
+				</li>
+				<li>
+					<a href="docs/arcdocPT.pdf" target="_blank">Download document in Portuguese</a>
+				</li>
+			</ul>
+
+			<h4>Our preceding study about reference architecture in the context of software variability tools</h4>
+			<ul>
+				<li>
+					<a href="http://dl.acm.org/citation.cfm?id=2755568" target="_blank">Download paper</a>
+				</li>
+			</ul>
+
+		</div>
+	</main>
+
+	<footer role="contentinfo">
+		<small>Copyright &copy;
+			<time datetime="2013">2017</time>
+		</small>
+	</footer>
 </body>
 
 </html>
